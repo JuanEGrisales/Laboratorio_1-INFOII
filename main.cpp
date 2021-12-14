@@ -130,7 +130,7 @@ int main()
          cin>>y;
 
          if (x%100==60){cout<<x<<" es un tiempo invalido."<<endl;}
-         //else if (y%100==60){cout<<y<<" es un tiempo invalido."<<endl;}
+         else if (y%100==60){cout<<y<<" es un tiempo invalido."<<endl;}
          else{
              c=x/100;//hora del primer numero
              d=x%100;//minutos del primer numero
