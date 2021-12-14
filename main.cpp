@@ -28,15 +28,6 @@ int main()
      cin>>opcion;
 
 
-
-     //int esp=0,ast=0,impar=0,j,i,a;//variables caso 3
-     //unsigned long long aux = 1, fib = 1, lim, init,suma=0; int num;//variables caso 4
-     //int mod,aux1=0,aux2=0,e=0;//variables caso 5
-     //int n,sum=0,s;//variables caso 7
-     //int inx=1,iny=0, term=0,pal;//Variables caso 8
-     //int num1=1,ad=2,tot=0,tam=2;//variables caso 9
-     //int tri=0,div=0,entr;//variables caso 10
-
      system("cls");
      switch (opcion) { //esta es la funcion que te permite escoger el punto que quieres correr
 
@@ -172,7 +163,6 @@ int main()
          cout<<"Ejecutando el punto 5 de la practica # 1 ..."<<endl;
          int impar=2,i,j,a,b;
          cout<<"ingrese un numero impar ->";
-         //int esp=0,ast=0,impar=0,j,i,a;//variables caso 3
          cin>>impar;
 
          while (impar%2==0)
@@ -212,7 +202,6 @@ int main()
           ingresa 10, sería la suma de 2+8 =10 Nota: el formato de salida debe ser: El resultado de la suma es: 10 */
          cout<<"Ejecutando el punto 7 de la practica # 1 ..."<<endl;
          cout << "Ingrese un numero para la sucesion de fibonacci: ";
-         //int aux = 1, fib = 1, lim, init,suma=0;
          unsigned long long aux = 1, fib = 1, lim, init,suma=0;
          cin >> lim;
          if(lim > 0) {
